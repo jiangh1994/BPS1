@@ -1,0 +1,6 @@
+1、在WEB-INF下lib中添加jsch-0.1.52.jar
+删除jsch-0.1.29.jar
+
+2、在ftp服务器中/etc/ssh/sshd-config文件中
+KexAlgorithms后添加diffie-hellman-group1-sha1
+重启ssh服务
